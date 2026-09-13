@@ -3,6 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>ASC Development | Websites & Lead Systems for UK Trades</title>
+<meta name="description" content="ASC Development builds fast, conversion-focused websites and lead systems for UK trades: miss no call, win more work. Built in ten days, one monthly price, no contract.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#ec3013">
+<link rel="canonical" href="https://ascdev.tech/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ASC Development">
+<meta property="og:title" content="ASC Development | Websites & Lead Systems for UK Trades">
+<meta property="og:description" content="ASC Development builds fast, conversion-focused websites and lead systems for UK trades: miss no call, win more work. Built in ten days, one monthly price, no contract.">
+<meta property="og:url" content="https://ascdev.tech/">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ASC Development | Websites & Lead Systems for UK Trades">
+<meta name="twitter:description" content="ASC Development builds fast, conversion-focused websites and lead systems for UK trades: miss no call, win more work. Built in ten days, one monthly price, no contract.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f3f2f2'/%3E%3Crect x='6' y='6' width='20' height='20' fill='%23ec3013'/%3E%3C/svg%3E">
+<script id="ld-asc" type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"ASC Development","url":"https://ascdev.tech","description":"ASC Development builds fast, conversion-focused websites and lead systems for UK trades: miss no call, win more work. Built in ten days, one monthly price, no contract.","areaServed":"United Kingdom","serviceType":"Web design and lead generation for trades businesses","priceRange":"££"}</script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #f3f2f2; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
@@ -387,35 +402,19 @@ document.addEventListener('DOMContentLoaded', async function() {
 (function(){
   var TITLE='ASC Development | Websites & Lead Systems for UK Trades', DESC='ASC Development builds fast, conversion-focused websites and lead systems for UK trades: miss no call, win more work. Built in ten days, one monthly price, no contract.', URL="https://ascdev.tech/", FAV="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f3f2f2'/%3E%3Crect x='6' y='6' width='20' height='20' fill='%23ec3013'/%3E%3C/svg%3E";
   var LD={"@context":"https://schema.org","@type":"ProfessionalService","name":"ASC Development","url":"https://ascdev.tech","description":DESC,"areaServed":"United Kingdom","serviceType":"Web design and lead generation for trades businesses","priceRange":"££"};
-  function meta(attr,key,val){var s='meta['+attr+'="'+key+'"]';var m=document.head.querySelector(s);if(!m){m=document.createElement('meta');m.setAttribute(attr,key);document.head.appendChild(m);}if(m.getAttribute('content')!==val)m.setAttribute('content',val);}
-  function link(rel,href,type){var s='link[rel="'+rel+'"]';var l=document.head.querySelector(s);if(!l){l=document.createElement('link');l.setAttribute('rel',rel);document.head.appendChild(l);}if(type)l.setAttribute('type',type);if(l.getAttribute('href')!==href)l.setAttribute('href',href);}
-  function ensure(){
-    try{
-      if(document.title!==TITLE)document.title=TITLE;
-      meta('name','description',DESC);
-      meta('name','robots','index,follow');
-      meta('name','theme-color','#ec3013');
-      meta('name','viewport','width=device-width, initial-scale=1');
-      meta('property','og:type','website');
-      meta('property','og:site_name','ASC Development');
-      meta('property','og:title',TITLE);
-      meta('property','og:description',DESC);
-      meta('property','og:url',URL);
-      meta('property','og:locale','en_GB');
-      meta('name','twitter:card','summary_large_image');
-      meta('name','twitter:title',TITLE);
-      meta('name','twitter:description',DESC);
-      link('canonical',URL);
-      link('icon',FAV,'image/svg+xml');
-      if(!document.getElementById('ld-asc')){var sc=document.createElement('script');sc.id='ld-asc';sc.type='application/ld+json';sc.textContent=JSON.stringify(LD);document.head.appendChild(sc);}
-      if(document.documentElement.getAttribute('lang')!=='en-GB')document.documentElement.setAttribute('lang','en-GB');
-    }catch(e){}
-  }
+  function meta(attr,key,val){var m=document.head.querySelector('meta['+attr+'="'+key+'"]');if(!m){m=document.createElement('meta');m.setAttribute(attr,key);document.head.appendChild(m);}if(m.getAttribute('content')!==val)m.setAttribute('content',val);}
+  function link(rel,href,type){var l=document.head.querySelector('link[rel="'+rel+'"]');if(!l){l=document.createElement('link');l.setAttribute('rel',rel);document.head.appendChild(l);}if(type)l.setAttribute('type',type);if(l.getAttribute('href')!==href)l.setAttribute('href',href);}
+  function ensure(){try{
+    if(document.title!==TITLE)document.title=TITLE;
+    meta('name','description',DESC);meta('name','robots','index,follow');meta('name','theme-color','#ec3013');meta('name','viewport','width=device-width, initial-scale=1');
+    meta('property','og:type','website');meta('property','og:site_name','ASC Development');meta('property','og:title',TITLE);meta('property','og:description',DESC);meta('property','og:url',URL);meta('property','og:locale','en_GB');
+    meta('name','twitter:card','summary_large_image');meta('name','twitter:title',TITLE);meta('name','twitter:description',DESC);
+    link('canonical',URL);link('icon',FAV,'image/svg+xml');
+    if(!document.getElementById('ld-asc')){var sc=document.createElement('script');sc.id='ld-asc';sc.type='application/ld+json';sc.textContent=JSON.stringify(LD);document.head.appendChild(sc);}
+    if(document.documentElement.getAttribute('lang')!=='en-GB')document.documentElement.setAttribute('lang','en-GB');
+  }catch(e){}}
   ensure();
-  // re-apply whenever the app rebuilds <head> (debounced, no loop: ensure only adds when missing)
-  var t=null;
-  try{new MutationObserver(function(){clearTimeout(t);t=setTimeout(ensure,50);}).observe(document.head,{childList:true});}catch(e){}
-  // safety re-applies during initial render
+  var t=null;try{new MutationObserver(function(){clearTimeout(t);t=setTimeout(ensure,50);}).observe(document.head,{childList:true});}catch(e){}
   var n=0,iv=setInterval(function(){ensure();if(++n>30)clearInterval(iv);},400);
   addEventListener('load',ensure);document.addEventListener('visibilitychange',ensure);
 })();
