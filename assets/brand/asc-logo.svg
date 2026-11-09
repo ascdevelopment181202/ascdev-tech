@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 16" width="101" height="16">
+  <g fill="#000">
+    <text x="0" y="12.6" font-family="'DM Sans',Arial,sans-serif" font-weight="800" font-size="15" letter-spacing="0.5">ASC</text>
+    <circle cx="44.5" cy="11.2" r="1.7"/>
+    <text x="49" y="12.6" font-family="'DM Sans',Arial,sans-serif" font-weight="500" font-size="15" letter-spacing="0.3">dev</text>
+  </g>
+</svg>
