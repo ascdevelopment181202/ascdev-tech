@@ -18,6 +18,20 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - Gardens and outdoors: landscapers, gardeners, tree surgeons, fencing and driveway installers
 - Cleaning and pest control: domestic cleaners, window and gutter cleaners, carpet cleaners, pest control
 - Home improvement: kitchen fitters, carpenters, painters and decorators, plasterers, locksmiths, handymen
+- ASC also takes on a small number of healthcare and e-commerce clients where its approach is a good fit.
+
+## What the monthly plan includes
+- Rankings for the specific services each client wants more enquiries for
+- Google Maps visibility for "near me" searches, targeting the top three map results in the client's area
+- Visibility in AI assistants (ChatGPT, Gemini, Perplexity, Claude) when homeowners ask who to call
+- Technical fixes: page speed, mobile layout, site structure and structured data
+- Trust signals search engines look for: reviews, directory listings, consistent business details
+- A dedicated account lead, weekly updates and a monthly performance report; no call centres or chatbots
+
+## Targets ASC works towards
+- 2 to 5 times growth in enquiries from search
+- Top 3 Google Maps position in the client's area
+- 3 to 6 months for results to build and compound
 
 ## How ASC works with clients
 1. Book a call: https://calendar.app.google/pe51YxujVH79eFK3A

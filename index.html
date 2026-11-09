@@ -107,7 +107,7 @@
     {
       "@type": "Question",
       "name": "What types of businesses do you work with?",
-      "acceptedAnswer": { "@type": "Answer", "text": "We focus on home service businesses across the UK: plumbers, heating and gas engineers, electricians, roofers, builders, landscapers, cleaners, pest control, locksmiths and other home improvement trades." }
+      "acceptedAnswer": { "@type": "Answer", "text": "We focus on home service businesses across the UK: plumbers, heating and gas engineers, electricians, roofers, builders, landscapers, cleaners, pest control, locksmiths and other home improvement trades. We also take on a small number of healthcare and e-commerce clients, where our approach is a good fit." }
     }
   ]
 }
@@ -767,6 +767,20 @@ document.querySelectorAll("[data-sector]").forEach((li, i) => {
 })
 
 /* ==========================================================================
+   3c — WHAT YOU GET
+   ========================================================================== */
+inview(document.getElementById("included-eyebrow"), { mode: "once", delayIn: ENTRY_DELAY, from: { opacity: 0, y: 12 }, to: { opacity: 1, y: 0 }, config: REVEAL })
+textEngine(document.getElementById("included-title"), { ...HEAD, mode: "once", delayIn: ENTRY_DELAY + 80 })
+textEngine(document.getElementById("included-intro"), { ...COPY, gap: "word", mode: "once", delayIn: ENTRY_DELAY + 160 })
+document.querySelectorAll("[data-stat]").forEach((li, i) => {
+  inview(li, { mode: "once", delayIn: ENTRY_DELAY + i * 110, from: { opacity: 0, y: 24 }, to: { opacity: 1, y: 0 }, config: REVEAL })
+})
+document.querySelectorAll("[data-perk]").forEach((li, i) => {
+  inview(li, { mode: "once", delayIn: ENTRY_DELAY + (i % 3) * 90, from: { opacity: 0, y: 24 }, to: { opacity: 1, y: 0 }, config: REVEAL })
+})
+inview(document.getElementById("sectors-note"), { mode: "once", delayIn: ENTRY_DELAY, from: { opacity: 0, y: 12 }, to: { opacity: 1, y: 0 }, config: REVEAL })
+
+/* ==========================================================================
    5 — TEAM
    ========================================================================== */
 .team { position: relative; width: 100%; overflow: hidden; padding: 6rem 0 4rem; color: var(--black); }
@@ -1035,6 +1049,47 @@ select.field { appearance: none; -webkit-appearance: none; }
 @media (min-width: 1024px) { .sector-name { font-size: 1.75rem; } }
 .sector-types { grid-column: 2; font-size: 1rem; line-height: var(--leading-body); color: var(--on-muted-meta); }
 @media (min-width: 1024px) { .sector-types { grid-column: auto; font-size: 1.125rem; } }
+
+/* About: fixed to one screen, its pinned parts collide on short laptops. */
+@media (min-width: 640px) and (max-width: 1023px) { .about { height: auto; } }
+@media (min-width: 1024px) { .about { height: max(100lvh, 52rem); } }
+
+/* Sectors: the extra line under the list */
+.sectors-note { padding-inline: 1rem; margin-top: 2rem; max-width: 46rem; font-size: 1rem; line-height: var(--leading-body); color: var(--on-muted-meta); }
+@media (min-width: 768px)  { .sectors-note { padding-inline: 1.5rem; font-size: 1.125rem; } }
+@media (min-width: 1440px) { .sectors-note { padding-inline: 2rem; } }
+
+/* ==========================================================================
+   What you get — monthly work + the targets we hold ourselves to
+   ========================================================================== */
+.included { position: relative; width: 100%; padding-block: 6rem 6.5rem; color: var(--white); }
+@media (min-width: 1024px) { .included { padding-block: 8rem 8.5rem; } }
+.included-head, .included-stats, .included-grid { padding-inline: 1rem; }
+@media (min-width: 768px)  { .included-head, .included-stats, .included-grid { padding-inline: 1.5rem; } }
+@media (min-width: 1440px) { .included-head, .included-stats, .included-grid { padding-inline: 2rem; } }
+.included-head { display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 3rem; }
+@media (min-width: 1024px) { .included-head { flex-direction: row; align-items: flex-end; justify-content: space-between; margin-bottom: 4.5rem; } }
+.included-eyebrow { font-size: 0.75rem; text-transform: uppercase; line-height: var(--leading-body); color: var(--on-inverse-meta); margin-bottom: 1rem; }
+.included-title-wrap { max-width: 38rem; }
+.included h2 { font-size: 2.5rem; font-weight: 400; text-transform: capitalize; line-height: var(--leading-display-tight); }
+@media (min-width: 768px)  { .included h2 { font-size: 2.75rem; } }
+@media (min-width: 1440px) { .included h2 { font-size: var(--section-title); } }
+.included-intro { max-width: 22rem; font-size: 1.125rem; line-height: var(--leading-body); color: var(--on-inverse-meta); }
+.included-stats { display: grid; grid-template-columns: 1fr; margin: 0 0 4rem; list-style: none; }
+@media (min-width: 768px) { .included-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 5rem; } }
+.stat { display: flex; flex-direction: column; gap: 0.75rem; padding-block: 1.75rem; border-top: 1px dashed var(--border-on-inverse-subtle); }
+@media (min-width: 768px) { .stat { padding: 2rem 1.5rem 0 0; border-bottom: 1px dashed var(--border-on-inverse-subtle); padding-bottom: 2rem; } }
+.stat-num { font-size: 3.25rem; font-weight: 400; letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; }
+@media (min-width: 1024px) { .stat-num { font-size: 4.5rem; } }
+.stat-num em { font-style: normal; color: var(--on-inverse-meta); }
+.stat-label { max-width: 17rem; font-size: 1rem; line-height: var(--leading-body); color: var(--on-inverse-meta); }
+.included-grid { display: grid; grid-template-columns: 1fr; gap: 0 2rem; list-style: none; margin: 0; }
+@media (min-width: 768px)  { .included-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .included-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.perk { display: flex; flex-direction: column; gap: 0.625rem; padding-block: 1.75rem 2rem; border-top: 1px dashed var(--border-on-inverse-subtle); }
+.perk-num { font-size: 0.75rem; line-height: var(--leading-body); color: var(--on-inverse-meta); }
+.perk-name { font-size: 1.375rem; font-weight: 500; line-height: var(--leading-body); }
+.perk-desc { font-size: 1rem; line-height: var(--leading-body); color: var(--on-inverse-meta); max-width: 24rem; }
 </style>
 </head>
 
@@ -1232,7 +1287,7 @@ select.field { appearance: none; -webkit-appearance: none; }
   <div class="about-band">
     <div class="about-head">
       <p class="eyebrow" id="about-eyebrow">ASC Development</p>
-      <h2 id="about-title">Everything your trade needs to get found</h2>
+      <h2 id="about-title">Built to get you found</h2>
     </div>
 
     <!-- On a phone the topics sit inside the photo; from md the wrapper
@@ -1270,7 +1325,7 @@ select.field { appearance: none; -webkit-appearance: none; }
     <!-- The engine sets position: relative on its own container, so the
          placement lives on this wrapper. -->
     <div class="about-mission">
-      <p id="about-mission">We do one thing: get home service businesses found and winning more work. The site is fast and built to convert, the phone stops getting missed, and your name is the one Google and the AI assistants put forward.</p>
+      <p id="about-mission">We get home service businesses found and chosen, on Google and in the AI assistants homeowners now ask.</p>
     </div>
   </div>
 </section>
@@ -1328,6 +1383,35 @@ select.field { appearance: none; -webkit-appearance: none; }
       <li class="sector" data-sector><span class="sector-num">04</span><h3 class="sector-name">Gardens &amp; outdoors</h3><p class="sector-types">Landscapers, gardeners, tree surgeons, and fencing and driveway installers.</p></li>
       <li class="sector" data-sector><span class="sector-num">05</span><h3 class="sector-name">Cleaning &amp; pest control</h3><p class="sector-types">Domestic cleaners, window and gutter cleaners, carpet cleaners and pest control.</p></li>
       <li class="sector" data-sector><span class="sector-num">06</span><h3 class="sector-name">Home improvement</h3><p class="sector-types">Kitchen fitters, carpenters, painters and decorators, plasterers, locksmiths and handymen.</p></li>
+  </ul>
+  <p class="sectors-note" id="sectors-note">We also take on a small number of healthcare and e-commerce clients, where our approach is a good fit.</p>
+</section>
+</div></div>
+
+<!-- ======================================================================
+     3c — WHAT YOU GET. The monthly work, and the targets we hold ourselves to.
+     ====================================================================== -->
+<div data-flow><div>
+<section class="included" id="included" aria-labelledby="included-title" data-ground="dark" data-header-theme="dark">
+  <div class="included-head">
+    <div>
+      <p class="included-eyebrow" id="included-eyebrow">What you get</p>
+      <div class="included-title-wrap"><h2 id="included-title">Everything we do to win you work</h2></div>
+    </div>
+    <p class="included-intro" id="included-intro">One monthly plan. Here is what we work on for you, and the targets we hold ourselves to.</p>
+  </div>
+  <ul class="included-stats" aria-label="Our targets">
+    <li class="stat" data-stat><span class="stat-num">2&ndash;5<em>&times;</em></span><span class="stat-label">The growth in enquiries from search that we work towards.</span></li>
+    <li class="stat" data-stat><span class="stat-num">Top 3</span><span class="stat-label">Our Google Maps target for your area.</span></li>
+    <li class="stat" data-stat><span class="stat-num">3&ndash;6<em> months</em></span><span class="stat-label">A realistic timeline for results to build and keep compounding.</span></li>
+  </ul>
+  <ul class="included-grid">
+    <li class="perk" data-perk><span class="perk-num">01</span><h3 class="perk-name">Rank for the jobs you want</h3><p class="perk-desc">We target the services worth most to you, so the enquiries that come in are the work you actually want.</p></li>
+    <li class="perk" data-perk><span class="perk-num">02</span><h3 class="perk-name">Top three on Google Maps</h3><p class="perk-desc">When homeowners search &ldquo;near me&rdquo;, we work to put you in the map results they call from.</p></li>
+    <li class="perk" data-perk><span class="perk-num">03</span><h3 class="perk-name">Recommended by AI</h3><p class="perk-desc">We make your business easy for ChatGPT, Gemini and Perplexity to understand and suggest when someone asks who to call.</p></li>
+    <li class="perk" data-perk><span class="perk-num">04</span><h3 class="perk-name">A faster, healthier site</h3><p class="perk-desc">We fix what holds sites back: slow pages, awkward mobile layouts, messy structure and missing search data.</p></li>
+    <li class="perk" data-perk><span class="perk-num">05</span><h3 class="perk-name">Trust Google can see</h3><p class="perk-desc">Reviews, directory listings and consistent business details that show search engines you are the real, reliable choice.</p></li>
+    <li class="perk" data-perk><span class="perk-num">06</span><h3 class="perk-name">A real person, clear reports</h3><p class="perk-desc">A dedicated account lead, a short update every week and a plain-English report every month. No call centres, no chatbots.</p></li>
   </ul>
 </section>
 </div></div>
@@ -1877,14 +1961,14 @@ function textEngine(el, o) {
   el.classList.remove("te-plain")
   el.classList.add("te")
   if (o.gap === "word") el.classList.add("gap-word")
-  const sr = document.createElement("span")
-  sr.className = "te-sr"
-  sr.textContent = text
+  /* One copy of the text, with real spaces between the words: whitespace in a
+     flex row is not rendered, so the layout is unchanged, but the page text
+     (what crawlers, AI assistants and screen readers read) keeps its spaces. */
   const words = document.createElement("span")
   words.className = "te-words"
-  words.setAttribute("aria-hidden", "true")
-  el.append(sr, words)
-  const anims = text.split(/\s+/).map((w) => {
+  el.append(words)
+  const anims = text.split(/\s+/).map((w, i) => {
+    if (i > 0) words.appendChild(document.createTextNode(" "))
     const slot = document.createElement("span")
     slot.className = "te-slot" + (o.clip ? " clip" : "")
     const word = document.createElement("span")
