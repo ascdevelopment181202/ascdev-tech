@@ -43,6 +43,10 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - No large upfront build fee and no long contract.
 - Guarantee: "Get leads, or you don't pay."
 
+## Key pages
+- [Home](https://www.ascdev.tech/): what ASC does, who for, the monthly plan and the process
+- [SEO for plumbers](https://www.ascdev.tech/seo-for-plumbers/): how plumbing and heating firms get found on Google, Maps and AI assistants
+
 ## Team
 - Ayush Chavan, CEO and founder
 - Aarav Chavan, CTO
@@ -51,7 +55,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - United Kingdom.
 
 ## Contact
-- Website: https://ascdev.tech/
+- Website: https://www.ascdev.tech/
 - Phone: +44 7784 071383
 - Book a call: https://calendar.app.google/pe51YxujVH79eFK3A
 

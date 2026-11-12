@@ -38,4 +38,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://ascdev.tech/sitemap.xml
+Sitemap: https://www.ascdev.tech/sitemap.xml
