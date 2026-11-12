@@ -52,6 +52,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Websites for electricians](https://www.ascdev.tech/websites-for-electricians/): what an electrician's website needs for homeowners, landlords and commercial clients, and how ASC builds one
 - [Websites for roofers](https://www.ascdev.tech/websites-for-roofers/): what a roofing website needs to build trust for high-value roof work, and how ASC builds one
 - [Websites for builders](https://www.ascdev.tech/websites-for-builders/): what a building firm's website needs to win extensions, loft conversions and renovations, and how ASC builds one
+- [Websites for landscapers](https://www.ascdev.tech/websites-for-landscapers/): what a landscaping website needs to sell visual, seasonal work such as patios, driveways and garden makeovers, and how ASC builds one
 - [SEO for electricians](https://www.ascdev.tech/seo-for-electricians/): how electricians get found on Google, Google Maps and AI assistants for domestic, landlord and commercial work
 - [SEO for roofers](https://www.ascdev.tech/seo-for-roofers/): how roofing firms get found on Google, Google Maps and AI assistants for repairs, re-roofs and flat roofing
 - [AI search visibility for trades](https://www.ascdev.tech/ai-search-visibility-for-trades/): what AI search visibility (GEO) is, how AI assistants choose which local trades to name, and what ASC does about it
@@ -59,6 +60,9 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [How to get recommended by ChatGPT as a local business](https://www.ascdev.tech/guides/how-to-get-recommended-by-chatgpt-local-business/): how ChatGPT and other AI assistants find local businesses, and seven steps a tradesperson can take to be named
 - [Checkatrade or your own website?](https://www.ascdev.tech/guides/checkatrade-or-your-own-website/): a fair comparison of trade directories and lead sites against having your own website, and when each one suits
 - [How to rank on Google Maps as a tradesperson](https://www.ascdev.tech/guides/how-to-rank-on-google-maps-as-a-tradesperson/): how Google decides local map rankings and the eight steps a tradesperson can take to rank higher
+- [Pay monthly websites for tradespeople, explained](https://www.ascdev.tech/guides/pay-monthly-websites-for-tradespeople-explained/): how pay monthly websites for trades work, what is usually included, and eight questions to ask before signing up
+- [Website builder or done for you?](https://www.ascdev.tech/guides/website-builder-or-done-for-you-for-trades/): an honest comparison of building a trades website yourself on a website builder against having it built and run for you
+- [How to get more Google reviews as a tradesperson](https://www.ascdev.tech/guides/how-to-get-more-google-reviews-tradesperson/): a simple routine for getting more Google reviews as a tradesperson within Google's rules, with wording to use and how to handle a bad review
 - [About ASC Development](https://www.ascdev.tech/about/): who ASC Development is, who runs it, who it works with and how it works
 
 ## Team
