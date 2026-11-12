@@ -48,6 +48,18 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Guides](https://www.ascdev.tech/guides/): index of every guide and trade page
 - [Websites for tradespeople](https://www.ascdev.tech/websites-for-tradespeople/): what a trades website needs, how it gets a firm found on Google and recommended by AI assistants, and how ASC builds one in about ten days
 - [SEO for plumbers](https://www.ascdev.tech/seo-for-plumbers/): how plumbing and heating firms get found on Google, Maps and AI assistants
+- [Websites for plumbers](https://www.ascdev.tech/websites-for-plumbers/): what a plumbing and heating website needs to win emergency calls and boiler work, and how ASC builds one
+- [Websites for electricians](https://www.ascdev.tech/websites-for-electricians/): what an electrician's website needs for homeowners, landlords and commercial clients, and how ASC builds one
+- [Websites for roofers](https://www.ascdev.tech/websites-for-roofers/): what a roofing website needs to build trust for high-value roof work, and how ASC builds one
+- [Websites for builders](https://www.ascdev.tech/websites-for-builders/): what a building firm's website needs to win extensions, loft conversions and renovations, and how ASC builds one
+- [SEO for electricians](https://www.ascdev.tech/seo-for-electricians/): how electricians get found on Google, Google Maps and AI assistants for domestic, landlord and commercial work
+- [SEO for roofers](https://www.ascdev.tech/seo-for-roofers/): how roofing firms get found on Google, Google Maps and AI assistants for repairs, re-roofs and flat roofing
+- [AI search visibility for trades](https://www.ascdev.tech/ai-search-visibility-for-trades/): what AI search visibility (GEO) is, how AI assistants choose which local trades to name, and what ASC does about it
+- [What should a tradesperson's website include?](https://www.ascdev.tech/guides/what-should-a-tradesperson-website-include/): a checklist of the twelve things a trades website needs, what to leave out and a quick test to run on your own site
+- [How to get recommended by ChatGPT as a local business](https://www.ascdev.tech/guides/how-to-get-recommended-by-chatgpt-local-business/): how ChatGPT and other AI assistants find local businesses, and seven steps a tradesperson can take to be named
+- [Checkatrade or your own website?](https://www.ascdev.tech/guides/checkatrade-or-your-own-website/): a fair comparison of trade directories and lead sites against having your own website, and when each one suits
+- [How to rank on Google Maps as a tradesperson](https://www.ascdev.tech/guides/how-to-rank-on-google-maps-as-a-tradesperson/): how Google decides local map rankings and the eight steps a tradesperson can take to rank higher
+- [About ASC Development](https://www.ascdev.tech/about/): who ASC Development is, who runs it, who it works with and how it works
 
 ## Team
 - Ayush Chavan, CEO and founder
