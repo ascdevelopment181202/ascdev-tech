@@ -45,6 +45,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 
 ## Key pages
 - [Home](https://www.ascdev.tech/): what ASC does, who for, the monthly plan and the process
+- [Guides](https://www.ascdev.tech/guides/): index of every guide and trade page
 - [SEO for plumbers](https://www.ascdev.tech/seo-for-plumbers/): how plumbing and heating firms get found on Google, Maps and AI assistants
 
 ## Team
