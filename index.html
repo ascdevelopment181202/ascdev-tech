@@ -1577,7 +1577,7 @@ select.field { appearance: none; -webkit-appearance: none; }
   </nav>
 
   <address class="contact-details" id="contact-details">
-    <span><span class="block">07784 071383</span></span>
+    <span><a class="block" href="tel:+447784071383">07784 071383</a></span>
     <span><span class="block">ASC Development</span><span class="block">United Kingdom</span></span>
   </address>
 
@@ -2733,6 +2733,10 @@ readAspect()
 placeOnDeck()
 window.addEventListener("resize", placeOnDeck)
 
+/* Declared before the deal: with reduced motion deal() runs at once and reads both. */
+let loaded = false
+let finishing = false
+
 /* The deal — on a fixed beat, independent of loading. */
 const total = cards.length + 1
 let dealt = 0
@@ -2754,7 +2758,6 @@ const creep = setInterval(() => {
   target = target >= HOLD_AT ? target : target + 0.12
   fill.start({ progress: target }, { config: FILL })
 }, 240)
-let loaded = false
 function finishLoading() { if (loaded) return; loaded = true; maybeFinish() }
 Promise.all([
   document.readyState === "complete" ? Promise.resolve() : new Promise((r) => window.addEventListener("load", () => r(), { once: true })),
@@ -2762,7 +2765,6 @@ Promise.all([
 ]).then(finishLoading)
 const failsafe = setTimeout(finishLoading, MAX_WAIT)
 
-let finishing = false
 function maybeFinish() {
   if (finishing || !loaded || dealt < total) return
   finishing = true
