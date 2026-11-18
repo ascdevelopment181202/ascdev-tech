@@ -65,6 +65,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Website builder or done for you?](https://www.ascdev.tech/guides/website-builder-or-done-for-you-for-trades/): an honest comparison of building a trades website yourself on a website builder against having it built and run for you
 - [How to get more Google reviews as a tradesperson](https://www.ascdev.tech/guides/how-to-get-more-google-reviews-tradesperson/): a simple routine for getting more Google reviews as a tradesperson within Google's rules, with wording to use and how to handle a bad review
 - [The state of UK plumber websites 2026](https://www.ascdev.tech/guides/state-of-uk-plumber-websites-2026/): a data study by ASC Development of 68 UK plumbing firm homepages, covering https, mobile viewport, LocalBusiness schema, tap to call links, reviews and page weight, with the method and the numbers
+- [How long does local SEO take for a tradesperson?](https://www.ascdev.tech/guides/how-long-does-local-seo-take/): what can change in weeks and what takes months in local SEO for a UK trade business, what Google says about timing, what slows it down and how to tell it is working
 - [About ASC Development](https://www.ascdev.tech/about/): who ASC Development is, who runs it, who it works with and how it works
 
 ## Team
