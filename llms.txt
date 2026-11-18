@@ -49,6 +49,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Websites for tradespeople](https://www.ascdev.tech/websites-for-tradespeople/): what a trades website needs, how it gets a firm found on Google and recommended by AI assistants, and how ASC builds one in about ten days
 - [SEO for plumbers](https://www.ascdev.tech/seo-for-plumbers/): how plumbing and heating firms get found on Google, Maps and AI assistants
 - [Websites for plumbers](https://www.ascdev.tech/websites-for-plumbers/): what a plumbing and heating website needs to win emergency calls and boiler work, and how ASC builds one
+- [Websites for heating engineers](https://www.ascdev.tech/websites-for-heating-engineers/): what a heating firm's website needs for breakdown calls, boiler and heat pump quotes, yearly servicing and landlord gas safety checks, and how ASC builds one
 - [Websites for electricians](https://www.ascdev.tech/websites-for-electricians/): what an electrician's website needs for homeowners, landlords and commercial clients, and how ASC builds one
 - [Websites for roofers](https://www.ascdev.tech/websites-for-roofers/): what a roofing website needs to build trust for high-value roof work, and how ASC builds one
 - [Websites for builders](https://www.ascdev.tech/websites-for-builders/): what a building firm's website needs to win extensions, loft conversions and renovations, and how ASC builds one
@@ -63,6 +64,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Pay monthly websites for tradespeople, explained](https://www.ascdev.tech/guides/pay-monthly-websites-for-tradespeople-explained/): how pay monthly websites for trades work, what is usually included, and eight questions to ask before signing up
 - [Website builder or done for you?](https://www.ascdev.tech/guides/website-builder-or-done-for-you-for-trades/): an honest comparison of building a trades website yourself on a website builder against having it built and run for you
 - [How to get more Google reviews as a tradesperson](https://www.ascdev.tech/guides/how-to-get-more-google-reviews-tradesperson/): a simple routine for getting more Google reviews as a tradesperson within Google's rules, with wording to use and how to handle a bad review
+- [The state of UK plumber websites 2026](https://www.ascdev.tech/guides/state-of-uk-plumber-websites-2026/): a data study by ASC Development of 68 UK plumbing firm homepages, covering https, mobile viewport, LocalBusiness schema, tap to call links, reviews and page weight, with the method and the numbers
 - [About ASC Development](https://www.ascdev.tech/about/): who ASC Development is, who runs it, who it works with and how it works
 
 ## Team
