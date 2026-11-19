@@ -56,6 +56,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [Websites for landscapers](https://www.ascdev.tech/websites-for-landscapers/): what a landscaping website needs to sell visual, seasonal work such as patios, driveways and garden makeovers, and how ASC builds one
 - [SEO for electricians](https://www.ascdev.tech/seo-for-electricians/): how electricians get found on Google, Google Maps and AI assistants for domestic, landlord and commercial work
 - [SEO for roofers](https://www.ascdev.tech/seo-for-roofers/): how roofing firms get found on Google, Google Maps and AI assistants for repairs, re-roofs and flat roofing
+- [SEO for builders](https://www.ascdev.tech/seo-for-builders/): how building firms get found on Google, Google Maps and AI assistants for extensions, loft conversions and renovations
 - [AI search visibility for trades](https://www.ascdev.tech/ai-search-visibility-for-trades/): what AI search visibility (GEO) is, how AI assistants choose which local trades to name, and what ASC does about it
 - [What should a tradesperson's website include?](https://www.ascdev.tech/guides/what-should-a-tradesperson-website-include/): a checklist of the twelve things a trades website needs, what to leave out and a quick test to run on your own site
 - [How to get recommended by ChatGPT as a local business](https://www.ascdev.tech/guides/how-to-get-recommended-by-chatgpt-local-business/): how ChatGPT and other AI assistants find local businesses, and seven steps a tradesperson can take to be named
