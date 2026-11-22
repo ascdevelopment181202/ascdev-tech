@@ -115,3 +115,8 @@ img { max-width: 100%; display: block; }
 .p-ftr a { text-decoration: none; }
 .p-ftr a:hover { color: var(--white); }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .p-btn { transition: none; } }
+
+/* ---------- figures ---------- */
+.p-fig { margin: 1.5rem 0 1.25rem; max-width: 34rem; }
+.p-fig svg { display: block; width: 100%; height: auto; }
+.p-fig figcaption { margin-top: 0.75rem; font-size: 0.875rem; color: var(--meta); }
