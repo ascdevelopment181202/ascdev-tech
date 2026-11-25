@@ -70,6 +70,7 @@ ASC Development is a UK web and marketing studio for home service businesses: pl
 - [The state of UK electrician websites 2026](https://www.ascdev.tech/guides/state-of-uk-electrician-websites-2026/): a data study by ASC Development of 70 UK electrical firm homepages, covering https, mobile viewport, LocalBusiness schema, tap to call links, reviews and page weight, with a table comparing electricians and plumbers
 - [How long does local SEO take for a tradesperson?](https://www.ascdev.tech/guides/how-long-does-local-seo-take/): what can change in weeks and what takes months in local SEO for a UK trade business, what Google says about timing, what slows it down and how to tell it is working
 - [Google Business Profile checklist for trades](https://www.ascdev.tech/guides/google-business-profile-checklist-for-trades/): a 20 point checklist for a UK trade business's Google Business Profile in five groups (set-up, service areas, categories and services, photos and reviews, upkeep), each check tied to Google's own help pages
+- [Trade accreditations and registers UK](https://www.ascdev.tech/guides/trade-accreditations-and-registers-uk/): a reference table of 23 public registers a customer can use to check a UK tradesperson, grouped by trade, with what each body says about itself and a link to its search
 - [About ASC Development](https://www.ascdev.tech/about/): who ASC Development is, who runs it, who it works with and how it works
 
 ## Team
